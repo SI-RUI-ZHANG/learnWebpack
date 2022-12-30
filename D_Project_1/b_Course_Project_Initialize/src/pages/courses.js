@@ -1,14 +1,9 @@
-import bootstrap from "bootstrap";
 import $ from "jquery";
-import typed from "typed.js";
-import toastr from "toastr";
-import validate from "validate.js";
 import _ from "lodash";
 
 import "../index.css";
 import "../_vendor.scss";
 import "../assets/css/font-awesome.min.css"
-
 import courseData from "../data/courses.json";
 
 function loadCourses() {
